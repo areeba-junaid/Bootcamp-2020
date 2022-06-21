@@ -28,4 +28,4 @@ jobs:
       - name: Install Surge
         run: npm install --global surge
       - name: Run Surge
-        run: surge ./bootcampapp2020.surge.sh --token ${{secrets.SURGE_TOKEN}}
+        run: surge ./ AJTech.surge.sh --token ${{secrets.SURGE_TOKEN}}
